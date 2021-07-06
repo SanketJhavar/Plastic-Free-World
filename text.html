@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Text In CSS</title>
+    <style>
+        p{
+            border: 5px solid blue;
+        }
+        .p2{
+            color: rgb(41, 216, 247);
+            text-transform: uppercase;
+            text-shadow:2px 1px 3px rgb(89, 91, 219),2px 1px 2px rgb(26, 109, 40);/* here we can add two shadows by commas between them,it will just make it more denser in simple ways */
+            word-spacing: 10px;
+            line-height: 3;
+            /* line height is the height difference between the lines */
+            text-align:right ;
+        }
+        /*  text shadow 2px 1px means the letters will be moved 2px in X direction and 1 px in Y direction 
+         */
+        .p1{
+            text-decoration:underline ;
+            text-transform: capitalize;
+            text-indent: 50px;
+            letter-spacing: 10px;
+            text-rendering: geometricPrecision;
+             font-weight: 800 ;/*it makes the text more denser */
+        }
+    </style>
+</head>
+<body>
+    <h1>The Night King</h1>
+
+    <p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestias exercitationem perspiciatis adipisci excepturi vitae illum dolor quaerat rem labore dicta fuga magni, assumenda deleniti pariatur accusamus facilis similique laborum non sapiente totam sunt. Consequuntur, earum illo delectus blanditiis hic corporis quidem, doloribus porro quasi veniam, dolore itaque nulla non.</p>
+</body>
+</html>

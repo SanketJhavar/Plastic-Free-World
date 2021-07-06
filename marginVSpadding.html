@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin vs padding</title>
+    <style>
+        .wrapper{
+        background-color: cyan;
+    }
+    .box1,.box2{
+        height: 100px;
+        width: 100px;
+    }
+    .box1{
+        margin: 50px 10px 10px 10px;
+        background-color: chartreuse;
+    }
+    .box2{
+        padding: 20px 10px 20px 10px;
+        background-color: rgb(221, 131, 47);
+        text-align: center;
+        margin: 50px 10px 10px 10px; ;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+    </div>
+    <!-- from above expt we can conclude that if th margin doesnot have any color then it occupies the color of its parent body and as padding is inside the box, it will occupy the color of the box.  -->
+</body>
+</html>
