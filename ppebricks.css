@@ -2,12 +2,14 @@
     display: grid;
     grid-gap: 10px;
     background-color: rgba(190, 132, 168, 0.8);
+    background-image: linear-gradient(#b177e7,#5c1d60);
     padding: 10px;
   }
   
   .grid-item {
    
     background-color: #ebcfd4;
+    background-image: linear-gradient(to right,#936293,pink);
     text-align: center;
     padding: 20px;
     font-size: 30px;
